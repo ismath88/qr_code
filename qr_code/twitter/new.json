@@ -1,0 +1,25 @@
+{
+  "person": {"Firstname": "Ismath",
+    "Lastname": "Khan",
+    "Address": {
+      "doornumber": "7a",
+      "street": "nehru street",
+      "city": "chennai"
+    },
+    "phonenumber": [
+         {
+           "type"  : "mobile",
+           "number": "212 555-1234"
+         },
+         {
+           "type"  : "landline",
+           "number": "646 555-4567"
+         },
+         {
+           "type"  : "skypenumber",
+           "number": "123456"
+         }
+     ]
+
+  }
+}

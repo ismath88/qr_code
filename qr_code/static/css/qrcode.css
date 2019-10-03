@@ -1,0 +1,40 @@
+/* 
+    Document   : qrcode.css
+    Created on : Jan 12, 2012, 5:32:18 PM
+    Author     : Ismath
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.Blsk-txt-div-ct
+{
+    position: relative;
+    left:500px;
+}
+
+.Blsk-qr-image-div{
+
+    width:500px;
+    height: 300px;
+    position: relative;
+    left:500px;
+    top:100px;
+    border: 1px solid #000000;
+    text-align: center;
+
+}
+.Blsk-qr-code-label{
+    position: relative;
+    left:500px;
+    top:100px;
+}
+.Blsk-qr-image{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.sub-button{
+    position: relative;
+    left:700px;
+    
+}
+

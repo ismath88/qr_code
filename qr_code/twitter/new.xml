@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+    <Firstname>Ismath</Firstname>
+    <Lastname>Khan</Lastname>
+    <Address>
+        <doornumber>7a</doornumber>
+        <street>nehru street</street>
+        <city>chennai</city>
+    </Address>
+    <phonenumber>
+        <type>mobile</type>
+        <number>08951657977</number>
+    </phonenumber>
+    <phonenumber>
+        <type>landline</type>
+        <number>04371222049</number>
+    </phonenumber>
+    <phonenumber>
+        <type>skypenumber</type>
+        <number>123456</number>
+    </phonenumber>
+</person>
+$json_url = 'http://demo.tools.krds.com/dispatch_ws.php?action=create';
+
+$ch = curl_init( $json_url );
+$options = array(
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => array('Content-type: application/xml'),
+        CURLOPT_TIMEOUT=> 13
+);
+curl_setopt_array( $ch, $options );
+$result =  curl_exec($ch);
+
+echo $_GET['action'];
